@@ -2,7 +2,7 @@
 
 describe('trackme', function () {
 
-    describe('setup()', function() {
+    describe('setup()', function () {
         it('sets coordinates', function (done) {
             var mockMap = {addMarker: jasmine.createSpy('addMarker')};
 
@@ -22,7 +22,7 @@ describe('trackme', function () {
                 longitude: -77.03221142292
             });
 
-            coordinatesPromise.promise().then(function() {
+            coordinatesPromise.promise().then(function () {
                 done();
             });
         });

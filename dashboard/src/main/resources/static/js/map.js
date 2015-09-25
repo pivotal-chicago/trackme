@@ -6,7 +6,7 @@ var trackme = trackme || {};
         this.map = L.mapbox.map('map', 'mapbox.streets');
     };
 
-    trackme.Map.prototype.addMarker = function(options) {
+    trackme.Map.prototype.addMarker = function (options) {
         L.mapbox.featureLayer({
             type: 'Feature',
             geometry: {
